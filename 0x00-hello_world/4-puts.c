@@ -1,10 +1,13 @@
-#include
+#include <stdio.h>
 
-int main()
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-   char string[40];
-   strcpy(string, "Programming is like building a multilingual puzzle");
-   puts(string);
-   return 0;
+  
+puts("Programming is like building a multilingual puzzle,\n")      
+	return (0);
 }
-!
