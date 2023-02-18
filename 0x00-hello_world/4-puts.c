@@ -1,6 +1,8 @@
 #include<stdio.h>
 /**
+ * main - Entry point
  *
+ * Description: C program to print a string
  *
  * Return: Always 0 (Success)
  */
