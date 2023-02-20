@@ -32,8 +32,8 @@ int main(void)
         }
      	else (n < 0)
         {
-        printf("%d is negative\n", n );
-        }
-     	return (0);
+        printf("%d is negative\n", n)
+	}
+	return(0);
 
 }
