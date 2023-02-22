@@ -1,23 +1,24 @@
 #include "main.h"
+
 /**
- * main - print all alphabets in lowercases
- * Return: void
+ * print_alphabet_x10 - a function that display lowercases alphabet 10 times
+ *
+ * Return: x10 Always
  */
 
 void print_alphabet_x10(void)
-
 {
+	int n, co;
 
-	char c;
-	int i = 0
+	co = 0;
 
-	while(i <= 9)
+	while (co < 10)
 	{
-	for(c = 'a'; c <= 'z'; c++)
-	{
-	_putchar(c);
-	}
-	_putchar('\n');
-	i++;
+		for (n = 'a'; n <= 'z'; n++)
+		{
+			_putchar(n);
+		}
+		co++;
+		_putchar('\n');
 	}
 }
