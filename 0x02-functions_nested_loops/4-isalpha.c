@@ -6,7 +6,7 @@
  *
  * @c: the char used
  *
- * Returns 1 if c is a letter, lowercase or uppercase or 0 if otherwise
+ * Return: 1 if c is a letter, lowercase or uppercase, 0 if otherwise
  */
 
 int _isalpha(int c)
