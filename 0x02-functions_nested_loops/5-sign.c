@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _print_sign - to print the sign
+ * print_sign - to print the output of the sign
  *
- *@n - the character to check for
+ * @n: the number to print the sign
  *
- * Return: 1 and prints + if n is greater than zero, 0 and prints 0 if n is zero, -1 and prints - if n is less than zero
+ *Return: 1 and prints + if n is greater than zero, 0 and prints 0 if n is zero, -1 and prints - if n is less than zero
  */
 
 int print_sign(int n)
@@ -19,7 +19,7 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else  
+	else
 	{
 		_putchar('-');
 		return (-1);
