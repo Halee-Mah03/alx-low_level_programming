@@ -5,13 +5,13 @@
  *
  * Description: single letter input
  *
- * Return: 1 if int x is lowercase, 0 if not
+ * Return: 1 if int c is lowercase, 0 if not
  */
 
 
-int _islower(int x)
+int _islower(int c)
 {
-	if (x >= 'a' && x <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
