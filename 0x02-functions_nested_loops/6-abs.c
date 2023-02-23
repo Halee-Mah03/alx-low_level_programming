@@ -3,17 +3,16 @@
 /**
  * _abs - to compute absolute integer
  *
- * @n: the integer to be checked
+ * @r: the integer neded for computing
  *
  * Return: the absolute integer
  */
 
-int _abs(int)
+int _abs(int r)
 {
-	if (n >= 0)
+	if (r >= 0)
 
-		return (n);
+		return (r);
 	else
-		return (-n);
-
+		return (-r);
 }
