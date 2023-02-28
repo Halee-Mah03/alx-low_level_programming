@@ -11,22 +11,15 @@
  * Return: A pointer to the destination string @dest
  */
 char *_strcpy(char *dest, char *src)
-
-{
-	int 1 = 0;
-	int b = 0;
-
-	while (*(src + 1) !='\0')
 	{
-		1++;
-	}
-		for (; b < 1; b++)
+	int index = 0;
 
+	while (src[index])
 	{
-		dest[b] = src[b];
-
+		dest[index] = src[index];
+		index++;
 	}
 
-	dest(1)= '\0';
+	dest[index] = '\0';
 	return (dest);
 }
